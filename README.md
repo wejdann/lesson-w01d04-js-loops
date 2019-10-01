@@ -24,4 +24,5 @@ By the end of this, developers should be able to:
 ## Loop Resources
 
 - https://www.w3schools.com/js/js_loop_for.asp
--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration
+
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration
