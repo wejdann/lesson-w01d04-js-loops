@@ -38,6 +38,31 @@ ANSWER HERE
 
 <br>
 
+# Exercises: JavaScript loops with array:
+
+Paste your answers into this file.
+
+
+
+1. Change all **odd** numbers to be those numbers multiplied by two:
+```js
+const numbers = [4, 9, 7, 2, 1, 8];
+
+  // your code here
+
+numbers; // => [4, 18, 14, 2, 2, 8]
+```
+
+2.  Create an array to hold your favorite colors.  For each choice, log to the screen a string like: `My #1 choice is blue.`
+
+3.  Create an array of ages.  Loop through and log only the ages that are over 21.
+
+1. Create an array to hold your top five choices of something (music, books, movies, whatever).
+
+    - For each choice, log to the screen a string like: "My #1 choice is blue."
+    - **Bonus:** Change it to log "My 1st choice, "My 2nd choice", "My 3rd choice", picking the right suffix for the number based on what it is.
+
+
 ## The classic Fizzbuzz Program
 
 For every `number` between 1 and 100...
