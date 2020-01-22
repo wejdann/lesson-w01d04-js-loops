@@ -10,22 +10,24 @@ Paste your answers into this file.
 
 ```
 ANSWER HERE
-```
+for (let x=0 ; x<=10 ; x=x+1){
+console.log(x);}
 
 <br>
 
 ## Print every number from 10 to 0
 
 ```
-ANSWER HERE
-```
+for (let x=10; x>0 ; x=x-1){
+console.log(x);}
 
 <br>
 
 ## Print every number from 4 to -16
 
 ```
-ANSWER HERE
+for (let x=4 ; x> -16 ; x=x-1){
+console.log(x);}
 ```
 
 <br>
@@ -34,7 +36,8 @@ ANSWER HERE
 
 ```
 ANSWER HERE
-```
+for (let x=8 ; x<=41 ; x=x+5){
+console.log(x);}
 
 <br>
 
@@ -46,16 +49,31 @@ Paste your answers into this file.
 
 1. Change all **odd** numbers to be those numbers multiplied by two:
 ```js
+
 const numbers = [4, 9, 7, 2, 1, 8];
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 !== 0) {
+        console.log(numbers[i] * 2);
+    } else {
+        console.log(numbers[i]);
+    }
+}
 
-  // your code here
 
+
+}
 numbers; // => [4, 18, 14, 2, 2, 8]
 ```
 
-2.  Create an array to hold your favorite colors.  For each choice, log to the screen a string like: `My #1 choice is blue.`
+2.  Create an array to hold your favorite colors.  For each choice, log to ## the screen a string like: `My #1 choice is blue.`
+##
+const FaviColors5 = ['black' , 'gray' , 'puplure' ];
 
+for (let i = 0; i < FaviColors5.length; i++) {
+    
+        console.log("My #"+i+ " "  + "choic is " + " " + FaviColors5[i]); }
 3.  Create an array of ages.  Loop through and log only the ages that are over 21.
+
 
 1. Create an array to hold your top five choices of something (music, books, movies, whatever).
 
